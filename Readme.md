@@ -61,12 +61,16 @@ Usage
     POST: http://localhost:8000/api
     JSON: {
         "name": "John Doe"
+        "age": 27
+        "track": "Backend"
     }
 
 ### Response
 
     {
         "name": "John Doe"
+        "age": 27
+        "track": "Backend"
     }
 
 ## Example 2
@@ -77,6 +81,8 @@ Usage
 
     {
     "name": "John Doe"
+    "age": 27
+    "track": "Backend"
     }
 
 ## API Endpoints
